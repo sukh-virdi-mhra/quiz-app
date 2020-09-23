@@ -78,10 +78,10 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Who is the best team in the Premier League?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Liverpool', correct: true },
+      { text: 'Manchester City', correct: false }
     ]
   },
   {
@@ -93,3 +93,20 @@ const questions = [
       { text: 'lewandowski', correct: true }
     ]
   },
+  {
+    question: 'Who is the best team in Europe?',
+    answers: [
+      { text: 'Bayern Munich', correct: false },
+      { text: 'Liverpool', correct: true },
+      { text: 'Barcelona', correct: false },
+      { text: 'Real Madrid', correct: false }
+    ]
+  },
+  {
+    question: 'Will Liverpool win the Premier League?',
+    answers: [
+      { text: 'No', correct: false },
+      { text: 'Yes', correct: true }
+    ]
+  }
+]
