@@ -65,15 +65,15 @@ function selectAnswer(e) {
 function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
-    element.classList.add('correct')
+    element.classList.add('Correct')
   } else {
-    element.classList.add('wrong')
+    element.classList.add('Wrong')
   }
 }
 
 function clearStatusClass(element) {
-  element.classList.remove('correct')
-  element.classList.remove('wrong')
+  element.classList.remove('Correct')
+  element.classList.remove('Wrong')
 }
 
 const questions = [
@@ -85,12 +85,12 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best Footballer?',
+    question: 'Who is the best footballer?',
     answers: [
       { text: 'Messi', correct: true },
-      { text: 'Ronaldo', correct: true },
-      { text: 'Neymar', correct: true },
-      { text: 'lewandowski', correct: true }
+      { text: 'Ronaldo', correct: false },
+      { text: 'Neymar', correct: false },
+      { text: 'Lewandowski', correct: false }
     ]
   },
   {
